@@ -1,63 +1,122 @@
-THE LINK TO OUR DOCUMENTATION IS https://docs.google.com/document/d/1pmAMBP_RNdc2kvwlHqF0mniWvyyCCytJ/edit?usp=sharing&ouid=118081463716963060744&rtpof=true&sd=true
 
+# Web Infrastructure - Client & Server on One Linux Machine
 
-# Web Infrastructure Assessment
+**Module:** Web Infrastructure  
+**Group:** Web Infrastructure Group  
+**Team Members:** JACINTA WACUKA, GRACE UMWIZA, NWANDO UKOH, ABDULJABAR  
+**Submission Date:** 06th September 2026
 
-This repository contains the files and documentation for our Web Infrastructure Assessment practical.
+---
 
-## Project Overview
+## Overview
 
-The project demonstrates the setup, configuration, testing, and troubleshooting of a web infrastructure environment using Parrot Security OS.
+This repository contains our technical report and supporting files for the **Web Infrastructure Assessment**.
 
-The practical covers:
+Using **Parrot Security OS 7.3**, we configured and tested SSH, NGINX, HTTP, Telnet, a public REST API, and troubleshooting procedures on a single Linux machine.
 
-- Linux user account setup and management
-- Password-based SSH authentication
-- SSH key generation and key-based authentication
-- SCP file transfer
-- SFTP file transfer
-- NGINX installation and configuration
-- Website hosting using NGINX
-- HTTP methods and status code testing
-- HTTP response headers
-- Telnet port testing
-- Raw HTTP requests
-- Public API interaction
-- Web server troubleshooting and recovery
+The project demonstrates that **client and server are roles that can operate on the same machine** using `127.0.0.1`.
+
+---
 
 ## Environment
 
-- **Operating System:** Parrot Security OS 7.3
-- **Web Server:** NGINX
-- **SSH:** OpenSSH
-- **Local Test Host:** 127.0.0.1
-- **Tools:** SSH, SCP, SFTP, cURL, Telnet, NGINX
+| Item | Value |
+|---|---|
+| OS | Parrot Security OS 7.3 |
+| Web Server | NGINX |
+| SSH | OpenSSH |
+| Test Host | 127.0.0.1 |
+| HTTP Port | 80 |
+| SSH Port | 22 |
+| Tools | SSH, SCP, SFTP, cURL, Telnet |
+| API | JSONPlaceholder |
 
-## Repository Contents
+---
 
-This repository contains the configuration files, website files, documentation, and other resources used during the practical assessment.
+## What's Covered
 
-## Team Collaboration
+### 1. SSH
 
-This project was completed collaboratively using GitHub for version control and file sharing. Team members contributed to the implementation, testing, documentation, and verification of the web infrastructure.
+- Installed and verified OpenSSH.
+- Tested password and public-key authentication.
+- Generated an SSH key pair.
+- Demonstrated SCP and SFTP file transfer.
+
+### 2. NGINX & HTTP
+
+- Installed and configured NGINX.
+- Hosted a custom website.
+- Created a custom 404 page.
+- Tested GET, HEAD, POST, PUT and DELETE.
+- Tested HTTP status codes including 200, 201, 204, 403, 404 and 405.
+- Added and verified a custom HTTP response header.
+
+### 3. Telnet & Raw HTTP
+
+- Tested SSH on port 22 and NGINX on port 80.
+- Stopped and restarted NGINX to test service availability.
+- Sent a raw HTTP request using Telnet.
+- Inspected the HTTP response, headers and body.
+
+### 4. Public API Testing
+
+- Used the JSONPlaceholder public REST API.
+- Tested GET and POST requests.
+- Tested query parameters.
+- Deliberately triggered a 404 error and corrected the request.
+
+### 5. Troubleshooting
+
+- Deliberately introduced a website permissions error.
+- Used NGINX logs and service checks to investigate the problem.
+- Identified the cause and restored the correct permissions.
+- Verified recovery using cURL and a successful HTTP response.
+
+---
 
 ## Security
 
-Only the **public SSH key** is included where required.
+- Used SSH public-key authentication.
+- Protected private SSH keys and passwords.
+- No sensitive credentials are included in the repository.
+- Only public SSH keys may be included where required.
 
-Private SSH keys, passwords, credentials, and other sensitive information are not included in this repository.
+---
 
-## Assessment
+## Testing & Evidence
 
-**Course/Assessment:** Web Infrastructure Assessment  
-**Year:** 2026
+The project is supported by screenshots and terminal evidence covering:
+
+- Linux and SSH configuration
+- NGINX and website hosting
+- HTTP testing
+- Telnet and raw HTTP
+- API requests
+- Troubleshooting and recovery
+
+---
+
+## Team Collaboration
+
+GitHub was used for version control, file sharing, documentation and collaboration.
+
+---
 
 ## Contributors
 
--JACINTA WACUKA
--GRACE UMWIZA
--NWANDO UKOH
--ABDULJABAR 
+- **JACINTA WACUKA**
+- **GRACE UMWIZA**
+- **NWANDO UKOH**
+- **ABDULJABAR**
+
 ---
 
-*Web Infrastructure Assessment © 2026*
+## Assessment
+
+**Course:** Web Infrastructure Assessment  
+**Year:** 2026  
+**Project:** Client & Server on One Linux Machine
+
+## Repository Link
+
+
