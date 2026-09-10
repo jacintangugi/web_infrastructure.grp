@@ -3,7 +3,7 @@
 
 **Module:** Web Infrastructure  
 **Group:** Web Infrastructure Group  
-**Team Members:** JACINTA WACUKA, GRACE UMWIZA, NWANDO UKOH, ABDULJABAR  
+**Team Members:** JACINTA WACUKA, GRACE UMWIZA, NWANDO Esther UKOH, ABDULJABAR  
 **Submission Date:** 06th September 2026
 
 ---
